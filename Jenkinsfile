@@ -19,7 +19,7 @@ pipeline{
 	}
 	
 	post{
-	success{echo sucsess}
-	failure{echo failed}
+	success{echo 'success'}
+	failure{echo 'failed'}
 	}
 }
